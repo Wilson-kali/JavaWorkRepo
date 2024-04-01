@@ -17,7 +17,7 @@ import java.util.Scanner;
 	    }
 
 	    // Method to reserve a seat
-	    public void reserveSeat(int seatNumber) {
+	   public void reserveSeat(int seatNumber) {
 	        if (seatNumber < 1 || seatNumber > seats.length) {
 	            System.out.println("Invalid seat number. Please enter a valid seat number.");
 	            return;
@@ -84,5 +84,4 @@ import java.util.Scanner;
 	        }
 	    }
 	}
-
 
